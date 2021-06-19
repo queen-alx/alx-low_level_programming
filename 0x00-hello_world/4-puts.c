@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  *main -entry point
  *Description: prints "\"Programming is like building a multiligual puzzel"
  *Return: 0
  */
+
 init main(void)
 {
 puts("\"Programming is like building a multiligual puzzel");
