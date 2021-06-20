@@ -6,7 +6,7 @@
  *Return: 0
  */
 
-init main(void)
+int main(void)
 {
 puts("\"Programming is like building a multiligual puzzel");
 return (0);
