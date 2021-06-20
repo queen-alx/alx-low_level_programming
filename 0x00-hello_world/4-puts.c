@@ -2,12 +2,12 @@
 
 /**
  *main -entry point
- *Description: prints "\"Programming is like building a multiligual puzzel"
+ *Description: prints "\"Programming is like building a multilingual puzzel"
  *Return: 0
  */
 
 int main(void)
 {
-puts("\"Programming is like building a multiligual puzzel");
+puts("\"Programming is like building a multilingual puzzel");
 return (0);
 }
