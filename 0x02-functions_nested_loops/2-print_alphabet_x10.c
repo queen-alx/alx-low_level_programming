@@ -1,13 +1,24 @@
 #include "holberton.h"
 
 /**
- * _islower - check for lower case letter
- * @c : character to check the case
- * Return:0 or 1
+ * print_alphabet_x10 - prints alphabets 10 times
+ * Return:void
  */
 
-int _islower(int c)
+void print_alphabet_x10(void)
 {
-	return (c >= 97 && c <= 122);
+	char c;
+	int i = 0;
 
+	while (i < 10)
+	{
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
+			i++;
+	}
 }
